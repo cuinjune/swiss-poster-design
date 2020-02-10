@@ -1,4 +1,4 @@
-# Math Quiz
+# Swiss Poster Design
 <img src="poster.jpeg" alt="poster" width="400"/>
 
 <!-- It is good practice to add an about or summary -->
