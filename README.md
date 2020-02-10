@@ -1,11 +1,18 @@
 # Swiss Poster Design
-<img src="poster.jpeg" alt="poster" width="400"/>
+This is the week 2 assignemnt for the ITP class Dynamic Web Development.
 
-<!-- It is good practice to add an about or summary -->
-## About
-This project is called Swiss Poster Design.
-The project's goal was to recreate a Swiss Poster using CSS.
-You can try it [here](https://cuinjune-swiss-poster-design.glitch.me).
+[Live Demo on Glitch](https://cuinjune-swiss-poster-design.glitch.me)
+
+
+## Inspiration
+I chose the following poster since I find it simple, balanced, and has an organized grid system.
+
+<img src="poster.jpeg" alt="poster" width="500"/>
+
+## Design
+
+[Project on Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinderspel?node-id=0%3A1)
+
 
 <!-- It is essential to describe how to set up your project -->
 ## Setup
