@@ -1,8 +1,4 @@
-<!-- Every README should start with an H1 -->
 # Math Quiz
-<!-- A one-sentence description of the project or assignment -->
-A CSS practice to recreate a Swiss poster.
-
 <img src="poster.jpeg" alt="poster" width="400"/>
 
 <!-- It is good practice to add an about or summary -->
