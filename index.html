@@ -16,6 +16,10 @@
             font-size: 16px;
         }
 
+        body {
+            background-color: #9A7040;
+        }
+
         @font-face {
             font-family: 'familiar_probold';
             src: url('fonts/familiar_pro-bold-webfont.woff2') format('woff2'),
@@ -32,65 +36,181 @@
             font-style: normal;
         }
 
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        /* nav */
-        .nav {
-        }
-        .nav__list {
-        }
- 
-        /* header */
-        .header {
-        }
-        .header__subtitle {
-        }
-        .header__title {
+        /* header fonts */
+        h1 {
+            font-family: 'familiar_probold', Arial, Helvetica, sans-serif;
+            font-size: 140px;
+            color: #000000;
         }
 
-        /* main */
-        .main {
+        h4 {
+            font-family: 'sophia_nubianbold', Arial, Helvetica, sans-serif;
+            font-size: 48px;
+            color: #000000;
         }
-        .main__image {
+
+        .debug {
+            border: 1px solid red;
         }
-        .main__aside {
+
+        .row1 {
+            width: 100vw;
+            height: calc(100vh / 12);
+        }
+        .row2 {
+            width: 100vw;
+            height: calc(100vh / 12);
+            display: flex;
+            flex-direction: row;
+            line-height: 5.5em;
+        }
+        .row2__column1 {
+            width: calc(100vw / 12 * 4);
+        }
+        .row2__column2 {
+            width: calc(100vw / 12 * 8);
+        }
+        .row34 {
+            width: 100vw;
+            height: calc(100vh / 12 * 2);
+        }
+        .row5 {
+            width: 100vw;
+            height: calc(100vh / 12);
+            display: flex;
+            flex-direction: row;
+        }
+        .row5__column1 {
+            width: calc(100vw / 12 * 4);
+        }
+        .row5__column2 {
+            width: calc(100vw / 12 * 8);
+            line-height: 5.5em;
+        }
+        .row67 {
+            width: 100vw;
+            height: calc(100vh / 12 * 2);
+            display: flex;
+            flex-direction: row;
+        }
+        .row67__column1 {
+            width: calc(100vw / 12 * 4);
+            display: flex;
+            flex-direction: column;
+        }
+        .row67__column1__row1 {
+            height: calc(100vh / 12);
+        }
+        .row67__column1__row2 {
+            height: calc(100vh / 12);
+        }
+        .row67__column2 {
+            width: calc(100vw / 12 * 8);
+            text-indent: -0.5em;
+            line-height: 9.5em;
+        }
+        .row8 {
+            width: 100vw;
+            height: calc(100vh / 12);
+        }
+        .row9-24 {
+            width: 100vw;
+            height: calc(100vh / 12 * 16);
+            display: flex;
+            flex-direction: row;
+        }
+        .row9-24__column1 {
+            width: calc(100vw / 12 * 4);
+            display: flex;
+            flex-direction: column;
+        }
+        .row9-24__column1__row1 {
+            height: calc(100vh / 12 * 8);
+        }
+        .row9-24__column1__row2 {
+            height: calc(100vh / 12 * 4);
+            line-height: 3.2em;
+        }
+        .row9-24__column1__row3 {
+            height: calc(100vh / 12 * 4);
+        }
+        .row9-24__column2 {
+            width: calc(100vw / 12 * 8);
         }
     </style>
 </head>
 
 <body>
     <div id="app">
-        <nav class="nav debug">
-            <ul class="nav__list">
-                <li class="nav__item">
+        <div class="row1 debug">
+        </div>
+
+        <div class="row2">
+            <div class="row2__column1 debug">
+                <h4>
                     amsterdam
-                </li>
-                <li class="nav__item">
+                </h4>
+            </div>
+            <div class="row2__column2 debug">
+                <h4>
                     stedelijk museum
-                </li>
-            </ul>
-        </nav>
-        <header class="header debug">
-            <h4 class="header__subtitle">
-                20 maart tot 3 mei 1965
-            </h4>
-            <h1 class="header__title">
-                Kinderspel
-            </h1>
-        </header>
-        <main class="main debug">
-            <menu class="image">
+                </h4>
+            </div>
+        </div>
+
+        <div class="row34 debug">
+        </div>
+
+        <div class="row5">
+            <div class="row5__column1 debug">
+            </div>
+    
+            <div class="row5__column2 debug">
+                <h4>
+                    20 maart tot 3 mei 1965
+                </h4>
+            </div>
+        </div>
+        
+        <div class="row67">
+            <div class="row67__column1">
+                <div class="row67__column1__row1 debug">
+                </div>
+                <div class="row67__column1__row2 debug">
+                </div>
+            </div>
+    
+            <div class="row67__column2 debug">
+                <h1>
+                    Kinderspel
+                </h1>
+            </div>
+        </div>
+
+        <div class="row8 debug">
+        </div>
+        
+        <div class="row9-24">
+            <div class="row9-24__column1">
+                <div class="row9-24__column1__row1 debug">
+                </div>
+                <div class="row9-24__column1__row2 debug">
+                    <h4>
+                        een <br />
+                        keuze <br />
+                        uit <br />
+                        hedendaags <br />
+                        speelgoed
+                    </h4>
+                </div>
+                <div class="row9-24__column1__row3 debug">
+                </div>
+            </div>
+    
+            <div class="row9-24__column2 debug">
                 my image
-            </menu>
-            <aside class="aside">
-                een <br />
-                keuze <br />
-                uit <br />
-                hedendaags <br />
-                speelgoed <br />
-            </aside>
-        </main>
+            </div>
+        </div>
     </div>
 </body>
 
