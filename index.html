@@ -146,42 +146,53 @@
         .row8 {
             width: 1071px;
             height: calc(1600px / 24);
+            border-bottom: 2px solid #EDEBDE;
         }
 
-        .row9-24 {
+        .row9 {
             width: 1071px;
-            height: calc(1600px / 24 * 16);
+            height: calc(1600px / 24);
+        }
+
+        .row10-24 {
+            width: 1071px;
+            height: calc(1600px / 24 * 15);
             display: flex;
             flex-direction: row;
         }
 
         @media screen and (max-width: 1071px) {
-            .row9-24 {
+            .row10-24 {
                 flex-direction: column;
             }
         }
 
-        .row9-24__column1 {
+        .row10-24__column1 {
             width: calc(1071px / 12 * 4);
             display: flex;
             flex-direction: column;
         }
 
-        .row9-24__column1__row1 {
-            height: calc(1600px / 24 * 8);
+        .row10-24__column1__row1 {
+            height: calc(1600px / 24 * 7);
         }
 
-        .row9-24__column1__row2 {
+        .row10-24__column1__row2 {
             height: calc(1600px / 24 * 4);
             line-height: 1.1em;
         }
 
-        .row9-24__column1__row3 {
+        .row10-24__column1__row3 {
             height: calc(1600px / 24 * 4);
         }
 
-        .row9-24__column2 {
+        .row10-24__column2 {
             width: calc(1071px / 12 * 8);
+        }
+        .cubes {
+            width: calc(1071px / 12 * 8);
+            height: calc(1600px / 24 * 15);
+            overflow: hidden;
         }
     </style>
 </head>
@@ -236,11 +247,14 @@
         <div class="row8 debug">
         </div>
 
-        <div class="row9-24">
-            <div class="row9-24__column1">
-                <div class="row9-24__column1__row1 debug">
+        <div class="row9 debug">
+        </div>
+
+        <div class="row10-24">
+            <div class="row10-24__column1">
+                <div class="row10-24__column1__row1 debug">
                 </div>
-                <div class="row9-24__column1__row2 debug">
+                <div class="row10-24__column1__row2 debug">
                     <h4>
                         een <br />
                         keuze <br />
@@ -249,12 +263,13 @@
                         speelgoed
                     </h4>
                 </div>
-                <div class="row9-24__column1__row3 debug">
+                <div class="row10-24__column1__row3 debug">
                 </div>
             </div>
 
-            <div class="row9-24__column2 debug">
-                my image
+            <div class="row10-24__column2 debug">
+                <iframe class="cubes" src="https://editor.p5js.org/cuinjune/embed/Bfw5MZRO" frameBorder="0" scrolling="no"> 
+                </iframe>
             </div>
         </div>
     </div>
