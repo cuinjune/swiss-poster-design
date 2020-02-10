@@ -13,10 +13,8 @@ I chose the following poster since I find it simple, balanced, and has an organi
 I started with drawing a sketch by hand to determine how the contents should be placed.
 <img src="sketch.jpg" alt="sketch" width="500"/>
 
-And then I used [Figma](www.figma.com) to create wireframe, visual design, and style guide. 
+And then I used [Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinderspel?node-id=0%3A1) to create wireframe, visual design, and style guide. 
 <img src="figma-screenshot.png" alt="figma-screenshot" width="1000"/>
-
-[Project on Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinderspel?node-id=0%3A1)
 
 <!-- It is essential to describe how to set up your project -->
 ## Setup
