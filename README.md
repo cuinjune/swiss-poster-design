@@ -1,11 +1,22 @@
 # Swiss Poster Design
-<img src="poster.jpeg" alt="poster" width="400"/>
+This is the week 2 assignemnt for the ITP class Dynamic Web Development.
 
-<!-- It is good practice to add an about or summary -->
-## About
-This project is called Swiss Poster Design.
-The project's goal was to recreate a Swiss Poster using CSS.
-You can try it [here](https://cuinjune-swiss-poster-design.glitch.me).
+[Live Demo on Glitch](https://cuinjune-swiss-poster-design.glitch.me)
+
+
+## Inspiration
+I chose the following poster since I find it simple, balanced, and has an organized grid system.
+<img src="poster.jpeg" alt="poster" width="500"/>
+
+## Design
+
+I started with drawing a sketch by hand to determine how the contents should be placed.
+<img src="sketch.jpg" alt="sketch" width="500"/>
+
+And then I used [Figma](www.figma.com) to create wireframe, visual design, and style guide. 
+<img src="figma-screenshot.png" alt="figma-screenshot" width="1000"/>
+
+[Project on Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinderspel?node-id=0%3A1)
 
 <!-- It is essential to describe how to set up your project -->
 ## Setup
@@ -21,7 +32,7 @@ To try out Swiss Poster Design locally on your browser, you need the followings:
 
 1. Open the Terminal
 2. Run `git clone https://github.com/cuinjune/swiss-poster-design.git` to clone this repository
-3. Run `cd math-quiz`
+3. Run `cd swiss-poster-design`
 4. Run `python -m SimpleHTTPServer` to start your local server
 5. Open the Web Browser, visit http://localhost:8000/ to see the result.
 
