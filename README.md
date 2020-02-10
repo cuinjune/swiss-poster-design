@@ -16,6 +16,18 @@ I started with drawing a sketch by hand to determine how the contents should be 
 And then I used [Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinderspel?node-id=0%3A1) to create wireframe, visual design, and style guide. 
 <img src="figma-screenshot.png" alt="figma-screenshot" width="1000"/>
 
+### Wire Frame1
+<img src="wireframe1.png" alt="wireframe1" width="500"/>
+
+### Wire Frame2
+<img src="wireframe2.png" alt="wireframe2" width="500"/>
+
+### Visual Design
+<img src="visualdesign.png" alt="visualdesign" width="500"/>
+
+### Style Guides
+<img src="styleguides.png" alt="styleguides" width="500"/>
+
 <!-- It is essential to describe how to set up your project -->
 ## Setup
 
