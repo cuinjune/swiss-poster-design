@@ -28,45 +28,29 @@ And then I used [Figma](https://www.figma.com/file/bKlUfptNqNW3dEMznKsARr/Kinder
 ### Style Guides
 <img src="styleguides.png" alt="styleguides" width="500"/>
 
-<!-- It is essential to describe how to set up your project -->
-## Setup
+## Building the Website
+I structured the HTML page with flex boxes that are essentially made of rows and columns and based on the wire frame sketch, I added width and height styles to each box in CSS section.
 
-<!-- Any knowledge or tools you will need beforehand -->
-### Prerequisites
+The page's dimensions are 1071 x 1600 in pixels just like the original poster image and I divided the page into 12 x 24 grids.
+To make texts align properly with the grid, I had to modify the `line-height` CSS property.
 
-To try out Swiss Poster Design locally on your browser, you need the followings: 
-1. Python
-2. A Web Browser
+<img src="debug.png" alt="debug" width="500"/>
 
-### Installation
+For the cubes image section, I used p5js to draw it and then embedded onto the HTML.
 
-1. Open the Terminal
-2. Run `git clone https://github.com/cuinjune/swiss-poster-design.git` to clone this repository
-3. Run `cd swiss-poster-design`
-4. Run `python -m SimpleHTTPServer` to start your local server
-5. Open the Web Browser, visit http://localhost:8000/ to see the result.
+[Cubes p5js sketch](https://editor.p5js.org/cuinjune/sketches/Bfw5MZRO)
 
-<!-- Write instructions on how to start working on your project -->
-### Develop
+And finally, I made the page responsive to the browser resizing by changing the flex direction.
 
-To develop this document, you can follow the steps provided below:
-1. Create a fork of this project on Github
-2. Ping the author of this repo via Github Issues to see if they are looking for contributions on the specific feature you're looking to add
-3. Open the file in VS Code and make updates 
-4. Add and commit those changes in your forked Github repo
-5. Make a pull request specifying what additions and changes were made
-6. Have a nice chat and communicate with me about those changes. 
-7. Celebrate the contribution! 
+```
+@media screen and (max-width: calc(1071px / 12 * 9)) {
+    .row2 {
+        flex-direction: column;
+    }
+}
+```
 
-<!-- Notes about the deployment -->
-### Deployment
 
-This project is hosted on Github. Github renders markdown files.
-
-## Built with
-
-* [VS Code](https://code.visualstudio.com/)
-* [Github](https://github.com)
 
 ## Author
 
