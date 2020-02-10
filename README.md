@@ -3,7 +3,7 @@
 <!-- A one-sentence description of the project or assignment -->
 A CSS practice to recreate a Swiss poster.
 
-![Poster](poster.jpeg)
+<img src="poster.jpeg" alt="poster" width="400"/>
 
 <!-- It is good practice to add an about or summary -->
 ## About
