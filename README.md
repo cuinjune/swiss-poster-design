@@ -54,4 +54,4 @@ And finally, I made the page responsive to the browser resizing by changing the 
 
 ## Author
 
-* [Zack Lee](https://www.cuinjune.com/about): an MPS Candidate at [NYU ITP](https://itp.nyu.edu)
+* [Zack Lee](https://www.cuinjune.com/about): MPS Candidate at [NYU ITP](https://itp.nyu.edu)
